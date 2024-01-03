@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "GMDCQRScanner",
+    "slug": "GMDCQRScanner",
+    "version": "1.0.1",
+    "orientation": "portrait",
+  
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.saadkhaan.GMDCQRScanner",
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ad12b15-896e-4035-8f8b-2dc0ac68fdd8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "saadkhaan"
+        }
+      ]
+    ],
+    "runtimeVersion": "1.0.1",
+    "updates": {
+      "url": "https://u.expo.dev/3ad12b15-896e-4035-8f8b-2dc0ac68fdd8"
+    },
+    "ios": {}
+  },
+  "name": "GMDCQRScanner"
+}
