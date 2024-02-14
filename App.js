@@ -3,7 +3,7 @@ import { View, Text, Button, Alert, StyleSheet } from "react-native";
 import { TouchableOpacity } from "react-native";
 import { Camera } from "expo-camera";
 import axios from "axios";
-import "expo-dev-client";
+// import "expo-dev-client"; // commented dev expo client
 
 const App = () => {
 	const [hasPermission, setHasPermission] = useState(null);
