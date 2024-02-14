@@ -1,22 +1,24 @@
 {
   "expo": {
     "name": "GMDCQRScanner",
-    "slug": "GMDCQRScanner",
-    "version": "1.0.1",
+    "slug": "gmdc-qr-scanner",
+    "version": "1.0.6",
     "orientation": "portrait",
-  
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "package": "com.saadkhaan.GMDCQRScanner",
+      "package": "com.saadkhaan.gmdcqrscanner",
       "permissions": [
-        "CAMERA"
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
       ]
     },
     "extra": {
       "eas": {
-        "projectId": "3ad12b15-896e-4035-8f8b-2dc0ac68fdd8"
+        "projectId": "34c52cc1-3601-4d25-bb17-978efe0374cf"
       }
     },
     "plugins": [
@@ -25,13 +27,21 @@
         {
           "username": "saadkhaan"
         }
-      ]
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow GMDCQRScanner to access your camera."
+        }
+      ],
+      "expo-build-properties"
     ],
-    "runtimeVersion": "1.0.1",
+    "runtimeVersion": "1.0.6",
     "updates": {
-      "url": "https://u.expo.dev/3ad12b15-896e-4035-8f8b-2dc0ac68fdd8"
+      "url": "https://u.expo.dev/34c52cc1-3601-4d25-bb17-978efe0374cf"
     },
-    "ios": {}
+    "ios": {},
+    "owner": "saadkhaan"
   },
   "name": "GMDCQRScanner"
 }

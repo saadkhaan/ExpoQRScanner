@@ -1,4 +1,4 @@
-package com.saadkhaan.GMDCQRScanner;
+package com.saadkhaan.gmdcqrscanner;
 
 import android.os.Build;
 import android.os.Bundle;
